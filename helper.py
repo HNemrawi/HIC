@@ -24,7 +24,7 @@ HTML_FOOTER = """
                 </div>
                     """
 
-column_mapping = {
+NE_column_mapping = {
     'Timestamp': 'Timestamp',
     'Project Name on HIC' : 'HIC_Project',
     #adult_1
@@ -99,6 +99,66 @@ column_mapping = {
     
     'Do you need to add information for a sixth child?': 'child_6',
     'Child #6: Do you have, or have you ever been diagnosed with, any of the listed conditions of long duration?' : 'child_6_chronic_condition',
+    'Child #6: Gender': 'child_6_Gender',
+    'Child #6: Race/Ethnicity': 'child_6_Race/Ethnicity'}
+
+DASH_column_mapping = {
+    'Timestamp': 'Timestamp',
+    'Project Name on HIC' : 'HIC_Project',
+    #adult_1
+    'Gender': 'Gender',
+    'Race/Ethnicity': 'Race/Ethnicity',
+    'Age Range': 'age_range',
+    'Are you a victim/survivor of domestic violence?': 'DV',
+    'Have you ever served on active duty in the Armed Forces of the United States?': 'vet',
+    '**SURVEYOR: Does this person have a disabling condition?': 'disability',
+    'How long have you been homeless?': 'homeless_long',
+    'How long have you been homeless this time?': 'homeless_long_this_time',
+    'Including this time, how many separate times have you stayed in shelters or on the streets in the past three years?': 'homeless_times',
+    'In total, how long did you stay in shelters or on the streets for those times?' : 'homeless_total',
+    "Is this the first time you've been homeless?": 'first_time',
+    'Do you have, or have you ever been diagnosed with, any of the following?' : 'chronic_condition',
+    'Specific length of time homeless' : 'specific_homeless_long',
+    'Specific length of time homeless this time' : 'specific_homeless_long_this_time',
+    #household
+    # 'Is (was) anyone from your current family household staying with you tonight (on Wednesday night)?': 'has_company',
+    # 'Which of the following describes the family household that is/was with you on Wednesday night?': 'household',
+    #adult_2
+    'Adult/Parent #2: Gender': 'adult_2_Gender',
+    'Adult/Parent #2: Race/Ethnicity': 'adult_2_Race/Ethnicity',
+    'Adult/Parent #2: Age Range': 'adult_2_age_range',
+    'Adult/Parent #2: Are you a victim/survivor of domestic violence?': 'adult_2_DV',
+    'Adult/Parent #2: Have you ever served on active duty in the Armed Forces of the United States?': 'adult_2_vet',
+    '**SURVEYOR: Does Adult/Parent #2 have a disabling condition?' : 'adult_2_disability',
+    'Adult/Parent #2: How long have you been homeless?' : 'adult_2_homeless_long',
+    'Adult/Parent #2: How long have you been homeless this time?': 'adult_2_homeless_long_this_time',
+    'Adult/Parent #2: Including this time, how many separate times have you stayed in shelters or on the streets in the past three years?': 'adult_2_homeless_times',
+    'Adult/Parent #2: In total, how long did you stay in shelters or on the streets for those times?' : 'adult_2_homeless_total',
+    "Adult/Parent #2: Is this the first time you've been homeless?" : 'adult_2_first_time',
+    'Adult/Parent #2: Do you have, or have you ever been diagnosed with, any of the following?' : 'adult_2_chronic_condition',
+    
+    #children
+    'Do you need to add information for a child in the household?': 'child_1',
+    'Child #1: Gender': 'child_1_Gender',
+    'Child #1: Race/Ethnicity': 'child_1_Race/Ethnicity',
+    
+    'Do you need to add information for another child?': 'child_2',
+    'Child #2: Gender': 'child_2_Gender',
+    'Child #2: Race/Ethnicity': 'child_2_Race/Ethnicity',
+    
+    'Do you need to add information for a third child?': 'child_3',
+    'Child #3: Gender': 'child_3_Gender',
+    'Child #3: Race/Ethnicity': 'child_3_Race/Ethnicity',
+    
+    'Do you need to add information for a fourth child?': 'child_4',
+    'Child #4: Gender': 'child_4_Gender',
+    'Child #4: Race/Ethnicity': 'child_4_Race/Ethnicity',
+    
+    'Do you need to add information for a fifth child?': 'child_5',
+    'Child #5: Gender': 'child_5_Gender',
+    'Child #5: Race/Ethnicity': 'child_5_Race/Ethnicity',
+    
+    'Do you need to add information for a sixth child?': 'child_6',
     'Child #6: Gender': 'child_6_Gender',
     'Child #6: Race/Ethnicity': 'child_6_Race/Ethnicity'}
 
